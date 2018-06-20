@@ -31,6 +31,8 @@ nav{
   height: 60%;
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 main{
   flex-grow: 1;
