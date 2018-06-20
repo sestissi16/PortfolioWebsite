@@ -17,12 +17,21 @@ body{
 }
 header{
   max-width: 100%;
-  height: 15vh;
+  height: 18vh;
   background-color: red;
   flex-shrink: 0;
-  display: inline-flex;
+  display: column;
 }
-.mainContent{
+nav{
+  height: 40%;
+  width: 100%;
+  background-color: green;
+}
+.title{
+  height: 60%;
+  width: 100%;
+}
+main{
   flex-grow: 1;
   overflow-y: auto;
 }
