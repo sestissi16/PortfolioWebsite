@@ -33,6 +33,7 @@ nav{
   text-align: center;
   display: flex;
   flex-direction: column;
+  font-family: 'IM Fell English SC', serif;
 }
 .mainTitle{
   padding-top: .5em;
