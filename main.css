@@ -30,6 +30,7 @@ nav{
 .title{
   height: 60%;
   width: 100%;
+  text-align: center;
 }
 main{
   flex-grow: 1;
