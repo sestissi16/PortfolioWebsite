@@ -22,10 +22,6 @@ header{
   flex-shrink: 0;
   display: inline-flex;
 }
-section{
-  height: 50vh;
-  background-color: purple
-}
 .mainContent{
   flex-grow: 1;
   overflow-y: auto;
