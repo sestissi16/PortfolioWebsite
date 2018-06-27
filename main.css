@@ -55,4 +55,10 @@ nav{
 main{
   flex-grow: 1;
   overflow-y: auto;
+  max-height: 100%;
+  background-color: black;
+}
+.featuredSection{
+  background-color: purple;
+  height: 50vh;
 }
