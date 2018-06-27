@@ -61,4 +61,13 @@ main{
 .featuredSection{
   background-color: purple;
   height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.feature1, .feature2, .feature3{
+  background-color: blue;
+  padding-right: 2vh;
+  height: 30vh;
+  width: 30vh;
 }
