@@ -20,7 +20,7 @@ header{
   height: 18vh;
   background-color: red;
   flex-shrink: 0;
-  display: column;
+  /* display: column; */
 }
 nav{
   height: 40%;
@@ -34,6 +34,8 @@ nav{
 .navButton{
   padding: 1.5vh 2vw;
   margin: 0px 2vw;
+  width: calc((100% - 2vw)/5);
+  height: 90%;
 }
 .title{
   height: 60%;
