@@ -72,5 +72,19 @@ main{
   background-color: blue;
   margin: 0 2vh;
   height: 30vh;
-  width: calc((100% - 4vh)/2);
+  width: calc((100% - 4vh)/3);
+}
+.briefAboutMe{
+  background-color: orange;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.selfPortrait, .myDescription, .importantLinks{
+  background-color: pink;
+  margin: 0 1vh;
+  height: 30vh;
+  width: calc((100% - 2vh)/3);
 }
