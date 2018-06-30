@@ -17,13 +17,13 @@ body{
 }
 header{
   max-width: 100%;
-  height: 18vh;
+  height: 20vh;
   background-color: red;
   flex-shrink: 0;
   /* display: column; */
 }
 nav{
-  height: 40%;
+  height: 45%;
   max-width: 100%;
   background-color: green;
   display: flex;
@@ -32,9 +32,8 @@ nav{
   justify-content: center;
 }
 .navButton{
-  padding: 1.5vh 2vw;
   margin: 0px 2vw;
-  width: calc((100% - 2vw)/5);
+  width: calc((100% - 16vw)/5);
   height: 90%;
 }
 .title{
