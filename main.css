@@ -31,6 +31,13 @@ nav{
   align-items: center;
   justify-content: center;
 }
+.regMenu{
+  min-width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .mobileMenu{
   display: none;
 }
