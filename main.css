@@ -31,6 +31,9 @@ nav{
   align-items: center;
   justify-content: center;
 }
+.mobileMenu{
+  display: none;
+}
 .navButton{
   margin: 0px 2vw;
   width: calc((100% - 16vw)/5);
