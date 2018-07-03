@@ -41,6 +41,17 @@ nav{
 .mobileMenu{
   display: none;
 }
+.hiddenNav{
+  display: none;
+}
+.hiddenNavShow{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 1vh 0; */
+  background-color: lightgreen;
+  width: 100%;
+}
 .navButton{
   margin: 0px 2vw;
   width: calc((100% - 16vw)/5);
