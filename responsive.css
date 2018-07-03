@@ -4,5 +4,17 @@
   }
   .mobileMenu{
     display: inline;
+    width: 100%;
+    height: 90%;
+  }
+  header{
+    height: 23vh;
+  }
+  nav{
+    height: 35%;
+  }
+  .menuButton{
+    height: 90%;
+    width: 100%;
   }
 }
