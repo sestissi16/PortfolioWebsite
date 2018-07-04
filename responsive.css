@@ -17,4 +17,22 @@
     height: 90%;
     width: 100%;
   }
+  .featuredSection{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .feature1, .feature2, .feature3{
+    margin: 2vh 0;
+    height: calc((100%-4vh)/3);
+    width: 80%;
+  }
+  .briefAboutMe{
+    flex-direction: column;
+    height: 100vh;
+  }
+  .selfPortrait, .myDescription, .importantLinks{
+    margin: 1vh 0;
+    height: calc((100%-2vh)/3);
+    width: 80%;
+  }
 }

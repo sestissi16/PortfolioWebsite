@@ -79,6 +79,7 @@ nav{
 main{
   flex-grow: 1;
   overflow-y: auto;
+  /* min-height: 80%; */
   max-height: 100%;
   background-color: black;
 }
