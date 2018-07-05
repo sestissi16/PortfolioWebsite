@@ -8,10 +8,19 @@
     height: 90%;
   }
   header{
-    height: 23vh;
+    height: 23%;
+  }
+  .headerOpen{
+    height: 35%
+  }
+  .navOpen{
+    height: 15%;
+  }
+  .titleOpen{
+    height: 35%;
   }
   nav{
-    height: 35%;
+    height: 30%;
   }
   .menuButton{
     height: 90%;

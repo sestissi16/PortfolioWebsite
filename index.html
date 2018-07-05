@@ -15,6 +15,9 @@
       function openNav(e){
         e.preventDefault()
         $(".hiddenNav").toggleClass("hiddenNavShow")
+        $("header").toggleClass("headerOpen")
+        $("nav").toggleClass("navOpen")
+        $(".title").toggleClass("titleOpen")
         e.stopPropagation()
       }
 
@@ -45,8 +48,6 @@
             </button>
           </div>
         </nav>
-      </header>
-      <main>
         <div class="hiddenNav">
           <button type="button" name="button" class="hiddenButton">Home</button>
           <button type="button" name="button" class="hiddenButton">Projects</button>
@@ -54,6 +55,9 @@
           <button type="button" name="button" class="hiddenButton">About Me</button>
           <button type="button" name="button" class="hiddenButton">Contact Me</button>
         </div>
+      </header>
+      <main>
+
         <section class="featuredSection">
           <section class="feature1">
 
